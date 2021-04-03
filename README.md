@@ -1,4 +1,5 @@
 # kaboom
+This is a part of my coding night exercise...
 image rendering
 
 ## C++ Learning
