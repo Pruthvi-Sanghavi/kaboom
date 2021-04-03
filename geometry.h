@@ -32,5 +32,22 @@ template <size_t DIM, typename T> vec<DIM, T> operator+(const vec<DIM,T>& lhs, c
 	return lhs;
 }
 
+template <size_t DIM, typename T> vec<DIM, T> operator-(const vec<DIM,T>& lhs, const vec<DIM,T>& rhs){
+	for(size_t i=DIM; i--; lhs[i]-=rhs[i]);
+	return lhs;
+}
+
+template <size_t DIM, typename T, typename U> vec<DIM, T> operator*(const vec<DIM,T> &lhs, const U& rhs) {
+	vec<DIM,T> ret;
+	for (size_t i=DIM; i--; ret[i]=lhs[i]*rhs);
+	return ret;
+}
 
 
+template<size_t DIM,typename T> vec<DIM,T> operator-(const vec<DIM,T> &lhs) {
+    return lhs*T(-1);
+}
+
+typedef vec<3, float> Vec3f;
+
+#endif //__GEOMETRY_H__
