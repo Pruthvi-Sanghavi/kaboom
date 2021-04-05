@@ -34,6 +34,8 @@ Here in this piece of code,\
 ```T lerp``` function datatype and function name.\
 ```(const T &v0, const T &v1, float t)``` initializes the arguments of the function with datatype T.
 
+##### Hash Functions
+A hash function is any function that can be used to map data of arbitrary size to fixed-size values. 
 
 ## Some Graphics Concepts
 
