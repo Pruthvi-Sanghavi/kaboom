@@ -2,6 +2,10 @@
 This is a part of my coding night exercise...
 image rendering
 
+<p align="center">
+ <img src="https://github.com/Pruthvi-Sanghavi/kaboom/blob/main/results/result.png" height="200px">
+</p>
+
 ## C++ Learning
 ##### size_t
 ```size_t``` alias for an unsigned integer type. Able to represent size of an object in bytes.
